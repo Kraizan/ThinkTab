@@ -1,7 +1,7 @@
 import React from "react";
 
 const navbarOptions = [
-  { name: "Home", path: "/" },
+  { name: "Dashboard", path: "/" },
   { name: "Learn", path: "/edu" },
   { name: "Classroom", path: "/classroom" },
   { name: "About", path: "/about" },
