@@ -2,10 +2,10 @@ import React from "react";
 
 const navbarOptions = [
   { name: "Dashboard", path: "/" },
+  { name: "Notepad", path: "/notepad" },
   { name: "Learn", path: "/edu" },
   { name: "Classroom", path: "/classroom" },
   { name: "ChatSpace", path: "/chatspace" },
-  { name: "About", path: "/about" },
 ];
 
 const Navbar = () => {

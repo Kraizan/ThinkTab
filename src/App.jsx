@@ -4,6 +4,7 @@ import EduSection from "@/components/edu";
 import Classroom from "@/components/classroom";
 import ResourceViewer from "@/components/classroom/ResourceViewer";
 import ChatSpace from "@/components/chatspace";
+import Notepad from "@/components/notepad";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/classroom" element={<Classroom />} />
           <Route path="/classroom/resource/:id" element={<ResourceViewer />} />
           <Route path="/chatspace" element={<ChatSpace />} />
+          <Route path="/notepad" element={<Notepad />} />
         </Routes>
       </BrowserRouter>
     </div>
