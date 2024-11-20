@@ -7,39 +7,6 @@ const Notepad = () => {
   const [brushColor, setBrushColor] = useState("#444");
   const [brushRadius, setBrushRadius] = useState(2);
 
-  const enterFullScreen = () => {
-    if (canvasRef.current) {
-      const canvasContainer = canvasRef.current.parentNode;
-      if (canvasContainer.requestFullscreen) {
-        canvasContainer.requestFullscreen();
-      } else if (canvasContainer.mozRequestFullScreen) {
-        canvasContainer.mozRequestFullScreen();
-      } else if (canvasContainer.webkitRequestFullscreen) {
-        canvasContainer.webkitRequestFullscreen();
-      } else if (canvasContainer.msRequestFullscreen) {
-        canvasContainer.msRequestFullscreen();
-      }
-    }
-  };
-
-  const exitFullScreen = () => {
-    if (document.exitFullscreen) {
-      document.exitFullscreen();
-    } else if (document.mozCancelFullScreen) {
-      document.mozCancelFullScreen();
-    } else if (document.webkitExitFullscreen) {
-      document.webkitExitFullscreen();
-    } else if (document.msExitFullscreen) {
-      document.msExitFullscreen();
-    }
-  };
-
-  const handleClear = () => {
-    if (canvasRef.current) {
-      canvasRef.current.clear();
-    }
-  };
-
   const handleEraseAll = () => {
     if (canvasRef.current) {
       canvasRef.current.eraseAll();
