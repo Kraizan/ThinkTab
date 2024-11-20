@@ -1,3 +1,5 @@
+import { color } from "chart.js/helpers";
+
 export const studentDetails = {
   name: "John Doe",
   rollNo: "12345",
@@ -19,7 +21,7 @@ export const attendanceData = {
     {
       label: "Attendance",
       data: [95, 90, 85, 80, 75, 70],
-      backgroundColor: "rgba(54, 162, 235, 0.6)",
+      backgroundColor: "rgba(30, 120, 255, 0.6)",
       borderColor: "rgba(54, 162, 235, 1)",
       borderWidth: 1,
     },

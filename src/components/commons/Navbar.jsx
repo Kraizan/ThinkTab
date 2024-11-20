@@ -4,8 +4,8 @@ const navbarOptions = [
   { name: "Dashboard", path: "/" },
   { name: "Learn", path: "/edu" },
   { name: "Classroom", path: "/classroom" },
+  { name: "ChatSpace", path: "/chatspace" },
   { name: "About", path: "/about" },
-  { name: "Support", path: "/support" },
 ];
 
 const Navbar = () => {
