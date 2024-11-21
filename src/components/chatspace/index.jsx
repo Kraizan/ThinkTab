@@ -31,7 +31,7 @@ const ChatSpace = () => {
     <Layout>
       <div className="pb-20 px-5 w-full">
         <div className="flex w-full h-full">
-          <div className="w-2/5 overflow-y-scroll p-2 rounded-l-lg bg-card border-r">
+          <div className="w-2/5 overflow-y-hidden p-2 rounded-l-lg bg-card border-r">
             <div className="sticky top-0 p-4 text-text-light border-b-2 mb-4">
               <h2 className="text-2xl font-bold">Chat Groups</h2>
             </div>

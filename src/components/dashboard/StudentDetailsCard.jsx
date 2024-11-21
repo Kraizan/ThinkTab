@@ -5,7 +5,7 @@ const StudentDetailsCard = ({ studentDetails }) => {
   return (
     <div className="w-full bg-card text-text-light p-5 rounded-lg shadow-lg mb-10">
       <h2 className="text-2xl font-bold mb-5">Student Details</h2>
-      <div className="flex space-x-10 justify-center items-center">
+      <div className="flex space-x-10 justify-center items-center lg:justify-between lg:px-10">
         <div className="flex justify-center items-center">
           <img src={avatar} alt="Avatar" className="w-24 h-24 rounded-full" />
         </div>
