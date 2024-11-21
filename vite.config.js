@@ -17,10 +17,10 @@ export default defineConfig({
       },
 
       manifest: {
-        name: "StudentHub",
-        short_name: "StudentHub",
+        name: "ThinkTab",
+        short_name: "ThinkTab",
         description:
-          "A unified platform for all school requirements of students.",
+          "The Classroom of Tomorrow.",
         theme_color: "#ffffff",
         icons: [
           {
