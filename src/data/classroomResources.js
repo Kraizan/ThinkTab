@@ -2,7 +2,7 @@ const classroomResources = [
   {
     id: 1,
     title: "Algebra Basics",
-    url: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+    url: "https://cses.fi/book/book.pdf",
     subject: "Mathematics",
     submittedBy: "John Doe",
     description: "A comprehensive guide to basic algebra concepts.",
@@ -13,7 +13,7 @@ const classroomResources = [
   {
     id: 2,
     title: "Water Cycle Overview",
-    url: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+    url: "https://cses.fi/book/book.pdf",
     subject: "Science",
     submittedBy: "Jane Smith",
     description: "An in-depth look at the water cycle and its importance.",
@@ -24,7 +24,7 @@ const classroomResources = [
   {
     id: 3,
     title: "American Revolution",
-    url: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+    url: "https://cses.fi/book/book.pdf",
     subject: "History",
     submittedBy: "Robert Brown",
     description: "A detailed account of the American Revolution.",
@@ -35,7 +35,7 @@ const classroomResources = [
   {
     id: 4,
     title: "Grammar Rules",
-    url: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+    url: "https://cses.fi/book/book.pdf",
     subject: "English",
     submittedBy: "Emily Davis",
     description: "An overview of basic grammar rules.",
@@ -46,7 +46,7 @@ const classroomResources = [
   {
     id: 5,
     title: "Introduction to Fractions",
-    url: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+    url: "https://cses.fi/book/book.pdf",
     subject: "Mathematics",
     submittedBy: "Alice Johnson",
     description: "A guide to understanding and working with fractions.",
